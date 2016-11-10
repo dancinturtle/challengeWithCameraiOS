@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9526093C1D89B85600839264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526093B1D89B85600839264 /* AppDelegate.swift */; };
-		9526093E1D89B85600839264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526093D1D89B85600839264 /* ViewController.swift */; };
+		9526093E1D89B85600839264 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526093D1D89B85600839264 /* HomeViewController.swift */; };
 		952609411D89B85600839264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9526093F1D89B85600839264 /* Main.storyboard */; };
 		952609441D89B85600839264 /* customCellDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 952609421D89B85600839264 /* customCellDemo.xcdatamodeld */; };
 		952609461D89B85600839264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952609451D89B85600839264 /* Assets.xcassets */; };
 		952609491D89B85600839264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952609471D89B85600839264 /* LaunchScreen.storyboard */; };
 		952609541D89B85600839264 /* customCellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952609531D89B85600839264 /* customCellDemoTests.swift */; };
 		9526095F1D89B85600839264 /* customCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526095E1D89B85600839264 /* customCellDemoUITests.swift */; };
+		9526096D1D89E44800839264 /* FancyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526096C1D89E44800839264 /* FancyCell.swift */; };
+		9526096F1D8A042F00839264 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526096E1D8A042F00839264 /* ImagePickerController.swift */; };
+		952609721D8A288F00839264 /* Memory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952609701D8A288F00839264 /* Memory+CoreDataProperties.swift */; };
+		952609731D8A288F00839264 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952609711D8A288F00839264 /* Memory.swift */; };
+		952609751D8A498000839264 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952609741D8A498000839264 /* CancelButtonDelegate.swift */; };
+		952609771D8A4A5900839264 /* MemoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952609761D8A4A5900839264 /* MemoryDelegate.swift */; };
+		952609791D8A669200839264 /* FancyCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952609781D8A669200839264 /* FancyCellDelegate.swift */; };
+		9526097B1D8A684700839264 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526097A1D8A684700839264 /* DetailsViewController.swift */; };
+		9526097D1D8A7A0C00839264 /* UpdatingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526097C1D8A7A0C00839264 /* UpdatingDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,7 @@
 /* Begin PBXFileReference section */
 		952609381D89B85600839264 /* customCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9526093B1D89B85600839264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9526093D1D89B85600839264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9526093D1D89B85600839264 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		952609401D89B85600839264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		952609431D89B85600839264 /* customCellDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = customCellDemo.xcdatamodel; sourceTree = "<group>"; };
 		952609451D89B85600839264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		9526095A1D89B85600839264 /* customCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9526095E1D89B85600839264 /* customCellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCellDemoUITests.swift; sourceTree = "<group>"; };
 		952609601D89B85600839264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9526096C1D89E44800839264 /* FancyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyCell.swift; sourceTree = "<group>"; };
+		9526096E1D8A042F00839264 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		952609701D8A288F00839264 /* Memory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Memory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		952609711D8A288F00839264 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		952609741D8A498000839264 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		952609761D8A4A5900839264 /* MemoryDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryDelegate.swift; sourceTree = "<group>"; };
+		952609781D8A669200839264 /* FancyCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyCellDelegate.swift; sourceTree = "<group>"; };
+		9526097A1D8A684700839264 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9526097C1D8A7A0C00839264 /* UpdatingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatingDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,8 @@
 		9526092F1D89B85600839264 = {
 			isa = PBXGroup;
 			children = (
+				952609701D8A288F00839264 /* Memory+CoreDataProperties.swift */,
+				952609711D8A288F00839264 /* Memory.swift */,
 				9526093A1D89B85600839264 /* customCellDemo */,
 				952609521D89B85600839264 /* customCellDemoTests */,
 				9526095D1D89B85600839264 /* customCellDemoUITests */,
@@ -100,12 +120,19 @@
 			isa = PBXGroup;
 			children = (
 				9526093B1D89B85600839264 /* AppDelegate.swift */,
-				9526093D1D89B85600839264 /* ViewController.swift */,
+				9526093D1D89B85600839264 /* HomeViewController.swift */,
+				9526097A1D8A684700839264 /* DetailsViewController.swift */,
+				952609741D8A498000839264 /* CancelButtonDelegate.swift */,
 				9526093F1D89B85600839264 /* Main.storyboard */,
+				9526096E1D8A042F00839264 /* ImagePickerController.swift */,
+				952609761D8A4A5900839264 /* MemoryDelegate.swift */,
+				9526096C1D89E44800839264 /* FancyCell.swift */,
+				952609781D8A669200839264 /* FancyCellDelegate.swift */,
 				952609451D89B85600839264 /* Assets.xcassets */,
 				952609471D89B85600839264 /* LaunchScreen.storyboard */,
 				9526094A1D89B85600839264 /* Info.plist */,
 				952609421D89B85600839264 /* customCellDemo.xcdatamodeld */,
+				9526097C1D8A7A0C00839264 /* UpdatingDelegate.swift */,
 			);
 			path = customCellDemo;
 			sourceTree = "<group>";
@@ -196,7 +223,7 @@
 				TargetAttributes = {
 					952609371D89B85600839264 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 93DU6VN4H3;
+						DevelopmentTeam = 2K9WG3X98K;
 					};
 					9526094E1D89B85600839264 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -262,9 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9526093E1D89B85600839264 /* ViewController.swift in Sources */,
+				9526097D1D8A7A0C00839264 /* UpdatingDelegate.swift in Sources */,
+				952609721D8A288F00839264 /* Memory+CoreDataProperties.swift in Sources */,
+				9526093E1D89B85600839264 /* HomeViewController.swift in Sources */,
+				952609751D8A498000839264 /* CancelButtonDelegate.swift in Sources */,
+				9526097B1D8A684700839264 /* DetailsViewController.swift in Sources */,
 				9526093C1D89B85600839264 /* AppDelegate.swift in Sources */,
+				952609731D8A288F00839264 /* Memory.swift in Sources */,
+				952609771D8A4A5900839264 /* MemoryDelegate.swift in Sources */,
+				952609791D8A669200839264 /* FancyCellDelegate.swift in Sources */,
+				9526096F1D8A042F00839264 /* ImagePickerController.swift in Sources */,
 				952609441D89B85600839264 /* customCellDemo.xcdatamodeld in Sources */,
+				9526096D1D89E44800839264 /* FancyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +397,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -399,6 +436,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -408,10 +446,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2K9WG3X98K;
 				INFOPLIST_FILE = customCellDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.customCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -419,10 +462,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2K9WG3X98K;
 				INFOPLIST_FILE = customCellDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.customCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -491,6 +539,7 @@
 				952609651D89B85600839264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		952609661D89B85600839264 /* Build configuration list for PBXNativeTarget "customCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +548,7 @@
 				952609681D89B85600839264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		952609691D89B85600839264 /* Build configuration list for PBXNativeTarget "customCellDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +557,7 @@
 				9526096B1D89B85600839264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
