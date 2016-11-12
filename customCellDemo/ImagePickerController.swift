@@ -28,7 +28,7 @@ class ImagePickerController: UIViewController,UIImagePickerControllerDelegate, U
     @IBAction func doneButtonPressed(sender: UIBarButtonItem) {
         //press the done button, only care if we have a name supplied
        
-        if let newName = nameTextField.text, newDesc = descriptionTextArea.text {
+        if let newName = nameTextField.text, let newDesc = descriptionTextArea.text {
             if newName == "" {
                 //if there is no name, cancel
                 cancelButtonDelegate?.cancelButtonPressedFrom(self)

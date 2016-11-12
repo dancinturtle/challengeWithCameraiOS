@@ -70,7 +70,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r4Z-v6-hXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="68"/>
+            <point key="canvasLocation" x="407" y="68"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="jlc-7U-try">
@@ -130,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epR-ex-Gsc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1869" y="-580"/>
+            <point key="canvasLocation" x="2167" y="-282"/>
         </scene>
         <!--Image Picker Controller-->
         <scene sceneID="7Sp-7P-hbp">
@@ -214,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ivl-5m-DjW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2054" y="170"/>
+            <point key="canvasLocation" x="2129" y="528"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ibP-Kb-wBA">
@@ -232,7 +232,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0L-qy-hOn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="223" y="170"/>
+            <point key="canvasLocation" x="-334" y="68"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ILO-qs-x5H">
@@ -250,7 +250,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NqG-MZ-Tjl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1597" y="90"/>
+            <point key="canvasLocation" x="1238" y="529"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="axF-w8-S0g">
@@ -275,6 +275,6 @@
         <image name="snail" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1VF-15-vGb"/>
+        <segue reference="cBr-bU-Ncx"/>
     </inferredMetricsTieBreakers>
 </document>
